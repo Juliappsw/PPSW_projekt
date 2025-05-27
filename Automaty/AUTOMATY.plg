@@ -1,0 +1,281 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\48509\Desktop\Programowanie\PPSW\Automaty\AUTOMATY.uvproj
+Project File Date:  05/27/2025
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling Automaty.c...
+Automaty.c(4): error:  #169: expected a declaration
+Automaty.c(13): warning:  #1-D: last line of file ends without a newline
+Automaty.c(13): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+".\AUTOMATY.axf" - 1 Errors, 2 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling Automaty.c...
+Automaty.c(4): error:  #169: expected a declaration
+Automaty.c(13): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+".\AUTOMATY.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling Automaty.c...
+Automaty.c(4): error:  #169: expected a declaration
+Automaty.c(13): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+".\AUTOMATY.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Clean started: Project: 'AUTOMATY'
+   deleting intermediate output files for target 'Target 1'
+Build target 'Target 1'
+assembling Startup.s...
+compiling Automaty.c...
+Automaty.c(4): error:  #169: expected a declaration
+Automaty.c(13): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+".\AUTOMATY.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling Automaty.c...
+Automaty.c(4): error:  #169: expected a declaration
+Automaty.c(13): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+".\AUTOMATY.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling Automaty.c...
+Automaty.c(4): error:  #169: expected a declaration
+Automaty.c(13): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+".\AUTOMATY.axf" - 1 Errors, 1 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling Automaty.c...
+Automaty.c(1): error:  #5: cannot open source input file "led.h": No such file or directory
+".\AUTOMATY.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling Automaty.c...
+Automaty.c(1): error:  #5: cannot open source input file "led.h": No such file or directory
+".\AUTOMATY.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling Automaty.c...
+Automaty.c(1): error:  #5: cannot open source input file "led.h": No such file or directory
+".\AUTOMATY.axf" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling Automaty.c...
+linking...
+.\AUTOMATY.axf: Error: L6218E: Undefined symbol KeyboardInit (referred from automaty.o).
+.\AUTOMATY.axf: Error: L6218E: Undefined symbol LedInit (referred from automaty.o).
+.\AUTOMATY.axf: Error: L6218E: Undefined symbol LedStepLeft (referred from automaty.o).
+.\AUTOMATY.axf: Error: L6218E: Undefined symbol LedStepRight (referred from automaty.o).
+.\AUTOMATY.axf: Error: L6218E: Undefined symbol eKeyboardRead (referred from automaty.o).
+".\AUTOMATY.axf" - 5 Errors, 0 Warning(s).
+Target not created
+Clean started: Project: 'AUTOMATY'
+   deleting intermediate output files for target 'Target 1'
+Build target 'Target 1'
+assembling Startup.s...
+compiling Automaty.c...
+linking...
+.\AUTOMATY.axf: Error: L6218E: Undefined symbol KeyboardInit (referred from automaty.o).
+.\AUTOMATY.axf: Error: L6218E: Undefined symbol LedInit (referred from automaty.o).
+.\AUTOMATY.axf: Error: L6218E: Undefined symbol LedStepLeft (referred from automaty.o).
+.\AUTOMATY.axf: Error: L6218E: Undefined symbol LedStepRight (referred from automaty.o).
+.\AUTOMATY.axf: Error: L6218E: Undefined symbol eKeyboardRead (referred from automaty.o).
+".\AUTOMATY.axf" - 5 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling Automaty.c...
+Automaty.c(18): warning:  #1295-D: Deprecated declaration LedInit - give arg types
+Automaty.c(18): warning:  #77-D: this declaration has no storage class or type specifier
+Automaty.c(18): error:  #147: declaration is incompatible with "void LedInit(void)" (declared at line 1 of "led.h")
+Automaty.c(19): warning:  #1295-D: Deprecated declaration KeyboardInit - give arg types
+Automaty.c(19): warning:  #77-D: this declaration has no storage class or type specifier
+Automaty.c(19): error:  #147: declaration is incompatible with "void KeyboardInit(void)" (declared at line 1 of "keyboard.h")
+".\AUTOMATY.axf" - 2 Errors, 4 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling Automaty.c...
+Automaty.c(18): warning:  #1295-D: Deprecated declaration LedInit - give arg types
+Automaty.c(18): warning:  #77-D: this declaration has no storage class or type specifier
+Automaty.c(18): error:  #147: declaration is incompatible with "void LedInit(void)" (declared at line 1 of "led.h")
+Automaty.c(19): warning:  #1295-D: Deprecated declaration KeyboardInit - give arg types
+Automaty.c(19): warning:  #77-D: this declaration has no storage class or type specifier
+Automaty.c(19): error:  #147: declaration is incompatible with "void KeyboardInit(void)" (declared at line 1 of "keyboard.h")
+".\AUTOMATY.axf" - 2 Errors, 4 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling Automaty.c...
+linking...
+.\AUTOMATY.axf: Error: L6218E: Undefined symbol KeyboardInit (referred from automaty.o).
+.\AUTOMATY.axf: Error: L6218E: Undefined symbol LedInit (referred from automaty.o).
+.\AUTOMATY.axf: Error: L6218E: Undefined symbol LedStepLeft (referred from automaty.o).
+.\AUTOMATY.axf: Error: L6218E: Undefined symbol LedStepRight (referred from automaty.o).
+.\AUTOMATY.axf: Error: L6218E: Undefined symbol eKeyboardRead (referred from automaty.o).
+".\AUTOMATY.axf" - 5 Errors, 0 Warning(s).
+Target not created
+Clean started: Project: 'AUTOMATY'
+   deleting intermediate output files for target 'Target 1'
+Build target 'Target 1'
+assembling Startup.s...
+compiling Automaty.c...
+linking...
+.\AUTOMATY.axf: Error: L6218E: Undefined symbol KeyboardInit (referred from automaty.o).
+.\AUTOMATY.axf: Error: L6218E: Undefined symbol LedInit (referred from automaty.o).
+.\AUTOMATY.axf: Error: L6218E: Undefined symbol LedStepLeft (referred from automaty.o).
+.\AUTOMATY.axf: Error: L6218E: Undefined symbol LedStepRight (referred from automaty.o).
+.\AUTOMATY.axf: Error: L6218E: Undefined symbol eKeyboardRead (referred from automaty.o).
+".\AUTOMATY.axf" - 5 Errors, 0 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling Automaty.c...
+compiling led.c...
+..\CW. LAB\led.c(31): warning:  #231-D: declaration is not visible outside of function
+..\CW. LAB\led.c(31): error:  #70: incomplete type is not allowed
+..\CW. LAB\led.c(34): error:  #20: identifier "LEFT" is undefined
+..\CW. LAB\led.c(37): error:  #20: identifier "RIGHT" is undefined
+..\CW. LAB\led.c(46): error:  #20: identifier "LEFT" is undefined
+..\CW. LAB\led.c(49): error:  #20: identifier "RIGHT" is undefined
+compiling keyboard.c...
+".\AUTOMATY.axf" - 5 Errors, 1 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling Automaty.c...
+compiling led.c...
+compiling keyboard.c...
+linking...
+Program Size: Code=1164 RO-data=32 RW-data=4 ZI-data=1260  
+".\AUTOMATY.axf" - 0 Errors, 0 Warning(s).
+Clean started: Project: 'AUTOMATY'
+   deleting intermediate output files for target 'Target 1'
+Build target 'Target 1'
+assembling Startup.s...
+compiling Automaty.c...
+compiling led.c...
+compiling keyboard.c...
+linking...
+Program Size: Code=1164 RO-data=32 RW-data=4 ZI-data=1260  
+".\AUTOMATY.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+compiling Automaty.c...
+Automaty.c(60): error:  #20: identifier "eWiperDirection" is undefined
+Automaty.c(60): error:  #20: identifier "RIGHT" is undefined
+Automaty.c(62): warning:  #223-D: function "LedGetCurrent" declared implicitly
+Automaty.c(63): error:  #20: identifier "LEFT" is undefined
+Automaty.c(68): warning:  #223-D: function "LedGetCurrent" declared implicitly
+compiling led.c...
+".\AUTOMATY.axf" - 3 Errors, 2 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling Automaty.c...
+Automaty.c(60): error:  #20: identifier "eWiperDirection" is undefined
+Automaty.c(60): error:  #20: identifier "RIGHT" is undefined
+Automaty.c(62): warning:  #223-D: function "LedGetCurrent" declared implicitly
+Automaty.c(63): error:  #20: identifier "LEFT" is undefined
+Automaty.c(68): warning:  #223-D: function "LedGetCurrent" declared implicitly
+compiling led.c...
+..\CW. LAB\led.c(32): error:  #101: "eStepDirections" has already been declared in the current scope
+..\CW. LAB\led.c(32): error:  #101: "LEFT" has already been declared in the current scope
+..\CW. LAB\led.c(32): error:  #101: "RIGHT" has already been declared in the current scope
+".\AUTOMATY.axf" - 6 Errors, 2 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling Automaty.c...
+Automaty.c(60): error:  #20: identifier "eWiperDirection" is undefined
+Automaty.c(60): error:  #20: identifier "RIGHT" is undefined
+Automaty.c(62): warning:  #223-D: function "LedGetCurrent" declared implicitly
+Automaty.c(63): error:  #20: identifier "LEFT" is undefined
+Automaty.c(68): warning:  #223-D: function "LedGetCurrent" declared implicitly
+compiling led.c...
+".\AUTOMATY.axf" - 3 Errors, 2 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling Automaty.c...
+Automaty.c(63): warning:  #223-D: function "LedGetCurrent" declared implicitly
+Automaty.c(69): warning:  #223-D: function "LedGetCurrent" declared implicitly
+linking...
+.\AUTOMATY.axf: Error: L6218E: Undefined symbol LedGetCurrent (referred from automaty.o).
+".\AUTOMATY.axf" - 1 Errors, 2 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling Automaty.c...
+linking...
+Program Size: Code=1280 RO-data=32 RW-data=4 ZI-data=1260  
+".\AUTOMATY.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+compiling Automaty.c...
+linking...
+Program Size: Code=1164 RO-data=32 RW-data=4 ZI-data=1260  
+".\AUTOMATY.axf" - 0 Errors, 0 Warning(s).
+Load "C:\\Users\\48509\\Desktop\\Programowanie\\PPSW\\Automaty\\AUTOMATY.axf" 
+Internal DLL Error
+Build target 'Target 1'
+compiling Automaty.c...
+linking...
+Program Size: Code=1436 RO-data=32 RW-data=4 ZI-data=1260  
+FromELF: creating hex file...
+".\AUTOMATY.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+compiling Automaty.c...
+Automaty.c(64): error:  #127: expected a statement
+Automaty.c(67): warning:  #12-D: parsing restarts here after previous syntax error
+Automaty.c(108): error:  #122: a default label may only be used within a switch
+Automaty.c(114): error:  #169: expected a declaration
+".\AUTOMATY.axf" - 3 Errors, 1 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling Automaty.c...
+Automaty.c(64): error:  #127: expected a statement
+Automaty.c(67): warning:  #12-D: parsing restarts here after previous syntax error
+Automaty.c(108): error:  #122: a default label may only be used within a switch
+Automaty.c(114): error:  #169: expected a declaration
+".\AUTOMATY.axf" - 3 Errors, 1 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling Automaty.c...
+Automaty.c(64): error:  #127: expected a statement
+Automaty.c(67): warning:  #12-D: parsing restarts here after previous syntax error
+Automaty.c(108): error:  #122: a default label may only be used within a switch
+Automaty.c(21): warning:  #177-D: variable "eWiperDirection" was declared but never referenced
+Automaty.c(114): error:  #169: expected a declaration
+".\AUTOMATY.axf" - 3 Errors, 2 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling Automaty.c...
+Automaty.c(64): error:  #127: expected a statement
+Automaty.c(67): warning:  #12-D: parsing restarts here after previous syntax error
+Automaty.c(108): error:  #122: a default label may only be used within a switch
+Automaty.c(114): error:  #169: expected a declaration
+".\AUTOMATY.axf" - 3 Errors, 1 Warning(s).
+Target not created
+Build target 'Target 1'
+compiling Automaty.c...
+linking...
+Program Size: Code=1436 RO-data=32 RW-data=4 ZI-data=1260  
+FromELF: creating hex file...
+".\AUTOMATY.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+compiling Automaty.c...
+linking...
+Program Size: Code=1436 RO-data=32 RW-data=4 ZI-data=1260  
+FromELF: creating hex file...
+".\AUTOMATY.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+compiling Automaty.c...
+linking...
+Program Size: Code=1436 RO-data=32 RW-data=4 ZI-data=1260  
+FromELF: creating hex file...
+".\AUTOMATY.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=1436 RO-data=32 RW-data=4 ZI-data=1260  
+FromELF: creating hex file...
+".\AUTOMATY.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=1436 RO-data=32 RW-data=4 ZI-data=1260  
+FromELF: creating hex file...
+".\AUTOMATY.axf" - 0 Errors, 0 Warning(s).
