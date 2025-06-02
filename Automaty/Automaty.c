@@ -63,3 +63,6 @@ int main(){
 
 	}
 }
+
+// zaliczenie git 
+
